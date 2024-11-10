@@ -1,0 +1,19 @@
+.purchasePage {
+  padding: clamp(1vw, 2vw, 24px);
+}
+.form {
+  padding: 16px;
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: white;
+  border-radius: 16px;
+}
+.buttonGroup {
+  padding-top: 8px;
+  align-self: center;
+}
+.title {
+  margin: 0 auto;
+}
