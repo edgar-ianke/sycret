@@ -6,7 +6,7 @@ export default function PaidPage() {
   const navigate = useNavigate();
   useEffect(() => {
     if (!(location.state && location.state.from === "/purchase")) {
-      navigate("/");
+      navigate("/home");
     }
   }, [location.state, navigate]);
 

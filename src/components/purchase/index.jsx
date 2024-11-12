@@ -52,7 +52,7 @@ export default function PurchasePage() {
   };
 
   React.useEffect(() => {
-    if (!location.state) navigate("/");
+    if (!location.state) navigate("/home");
     if (JSON.stringify(formValues) !== JSON.stringify(formFields)) {
       dispatch(setFormValues(formFields));
     }

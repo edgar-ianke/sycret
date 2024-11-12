@@ -18,7 +18,7 @@ function App() {
     <section className={style.main}>
       <div className={style.content}>
         <Routes>
-          <Route path="/" element={<HomeComponent />} />
+          <Route path="/home" element={<HomeComponent />} />
           <Route path="/purchase" element={<PurchasePage />} />
           <Route path="/paid" element={<PaidPage/> } />
         </Routes>
